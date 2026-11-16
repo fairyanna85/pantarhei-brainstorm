@@ -1,0 +1,17 @@
+{
+  "name": "pantarhei-brainstorm",
+  "owner": {
+    "name": "fairyanna85"
+  },
+  "metadata": {
+    "description": "Brainstorming and idea-generation skill: 30+ creativity methods dealt as a card deck."
+  },
+  "plugins": [
+    {
+      "name": "pantarhei-brainstorm",
+      "source": "./",
+      "description": "Brainstorming and idea-generation skill: 30+ creativity methods dealt as a card deck.",
+      "version": "0.1.0"
+    }
+  ]
+}

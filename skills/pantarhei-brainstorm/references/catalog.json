@@ -1,0 +1,1289 @@
+{
+ "skill": "pantarhei-brainstorm",
+ "schema": "core/schema/method.schema.json",
+ "count": 31,
+ "records": [
+  {
+   "slug": "create.diverge-then-converge",
+   "name": "Diverge, then converge",
+   "kind": "principle",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "J. P. Guilford; Alex Osborn",
+    "work": "The Nature of Human Intelligence; Applied Imagination",
+    "type": "academic",
+    "year": "1967; 1953",
+    "note": "Guilford coined divergent/convergent production; Osborn's deferred-judgment rule.",
+    "url": "https://kansalliskirjasto.finna.fi/Record/fikka.196746"
+   },
+   "source_verified": true,
+   "summary": "Generate first with judgment switched off, evaluate afterwards in a separate pass. Mixing the two kills weak-but-promising ideas before they can be improved.",
+   "key_question": "Am I judging ideas while I am still supposed to be producing them?",
+   "status": "complete",
+   "card": "No judging for the next ten ideas. Write the bad ones too.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "I keep shooting down my own ideas",
+    "we argue about ideas as soon as they are said",
+    "I want a big list first and a shortlist later",
+    "every idea gets criticised in the room"
+   ],
+   "produces": "two separated passes: an unjudged idea list, then a shortlist",
+   "failure_mode": "The judging pass never happens and the unfiltered list is treated as the result.",
+   "time_cost": "quick",
+   "group": "either",
+   "pairs_with": [
+    "create.idea-quota",
+    "create.brainwriting"
+   ]
+  },
+  {
+   "slug": "create.idea-quota",
+   "name": "Idea quota",
+   "kind": "principle",
+   "mode": "lens",
+   "evidence_class": "empirical",
+   "origin": {
+    "author": "Dean Keith Simonton",
+    "work": "Creativity in Science; equal-odds rule papers",
+    "type": "academic",
+    "year": "2004",
+    "url": "https://www.cambridge.org/core/books/abs/creativity-in-science/creative-products/9E3E7EA2EAFDFB6E1A90A176C41B1274"
+   },
+   "source_verified": true,
+   "summary": "Set a number before starting and do not stop short of it. Hit rates per idea are roughly constant, so more attempts produce more good ones; the best ideas tend to arrive late in a run.",
+   "key_question": "How many ideas will I produce before I am allowed to stop?",
+   "status": "complete",
+   "evidence_note": "Equal-odds rule: quality of output tracks quantity across careers (Simonton). Late-arriving best ideas: serial order effect (e.g. Beaty & Silvia 2012). Effect sizes vary by task.",
+   "card": "Twenty ideas. The good ones usually start after number twelve.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "I run out of ideas after five",
+    "give me a lot of ideas",
+    "I stop at the first decent idea",
+    "how many ideas should I come up with"
+   ],
+   "produces": "a numbered idea list that reached its target count",
+   "failure_mode": "Padding the list with near-duplicates to hit the number.",
+   "time_cost": "quick",
+   "group": "solo",
+   "pairs_with": [
+    "create.diverge-then-converge",
+    "create.crazy-8s"
+   ]
+  },
+  {
+   "slug": "create.brainwriting",
+   "name": "Brainwriting",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "empirical",
+   "origin": {
+    "author": "Bernd Rohrbach",
+    "work": "6-3-5 method (Absatzwirtschaft)",
+    "type": "practitioner",
+    "year": 1969
+   },
+   "source_verified": false,
+   "summary": "Each person writes ideas silently, then passes them on for others to build on. Avoids the production blocking and conformity that make verbal group brainstorming underperform.",
+   "key_question": "Are people generating alone before the loudest voice sets the direction?",
+   "status": "complete",
+   "evidence_note": "Nominal groups outproduce interactive groups (Diehl & Stroebe 1987, robust across replications); brainwriting variants close most of the gap.",
+   "card": "Everyone writes three ideas in five minutes. No talking. Then swap.",
+   "tension_with": [
+    "create.yes-and"
+   ],
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "our brainstorms get dominated by two people",
+    "ideas for a team workshop",
+    "quiet people never speak up",
+    "we need more ideas from the whole group"
+   ],
+   "steps": [
+    "State the challenge in one sentence and give everyone paper or a shared document.",
+    "Each person writes three ideas silently in a few minutes.",
+    "Pass the sheets on; each person adds to or builds on the ideas in front of them.",
+    "Repeat until every sheet has passed through every hand.",
+    "Collect all ideas onto one wall and cluster them before any discussion."
+   ],
+   "produces": "a pooled idea wall from every participant, written independently",
+   "failure_mode": "Skipping the silent round and falling back to open discussion.",
+   "time_cost": "medium",
+   "group": "group",
+   "pairs_with": [
+    "create.yes-and",
+    "create.diverge-then-converge"
+   ]
+  },
+  {
+   "slug": "create.scamper",
+   "name": "SCAMPER",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Bob Eberle (after Alex Osborn's checklist)",
+    "work": "SCAMPER: Games for Imagination Development",
+    "type": "practitioner",
+    "year": 1971,
+    "url": "https://www.routledge.com/Scamper-Creative-Games-and-Activities-for-Imagination-Development-Com/Eberle/p/book/9781593633462"
+   },
+   "source_verified": true,
+   "summary": "Seven transformations applied to something that already exists: substitute, combine, adapt, modify, put to another use, eliminate, reverse. Turns 'improve this' into seven concrete prompts.",
+   "key_question": "Which of the seven moves have I not tried on this yet?",
+   "status": "complete",
+   "card": "Pick one letter: Substitute, Combine, Adapt, Modify, Put to other use, Eliminate, Reverse.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "how can I improve this product",
+    "make this existing thing better",
+    "I have something that works but feels stale",
+    "variations on an existing service"
+   ],
+   "steps": [
+    "Name the existing thing and what it does today.",
+    "Take each of the seven moves in turn: substitute, combine, adapt, modify, put to another use, eliminate, reverse.",
+    "Write at least two quick ideas for each move, even weak ones.",
+    "Mark the moves that produced nothing and leave them for a later round.",
+    "Cluster the ideas and carry the strongest clusters forward."
+   ],
+   "produces": "a list of variations grouped by move, at least two per move",
+   "failure_mode": "Running only the first two or three moves and stopping.",
+   "time_cost": "quick",
+   "group": "either",
+   "pairs_with": [
+    "create.subtraction",
+    "create.sit-templates"
+   ]
+  },
+  {
+   "slug": "create.morphological-box",
+   "name": "Morphological box",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Fritz Zwicky",
+    "work": "Discovery, Invention, Research through the Morphological Approach",
+    "type": "academic",
+    "year": 1969,
+    "url": "https://mathshistory.st-andrews.ac.uk/Extras/Zwicky_books"
+   },
+   "source_verified": true,
+   "summary": "List the independent dimensions of a solution, list options on each, then combine one option per dimension. Makes the whole design space visible and surfaces combinations nobody would have proposed.",
+   "key_question": "What are the dimensions, and which combination has nobody tried?",
+   "status": "complete",
+   "aka": [
+    "General morphological analysis",
+    "Zwicky box"
+   ],
+   "card": "Three columns, five options each. Pick a combination at random and defend it.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "I need a new product concept",
+    "there are several independent choices in this design",
+    "systematically explore all the combinations",
+    "what hasn't been tried"
+   ],
+   "steps": [
+    "List the independent dimensions of the solution (for example who, where, how, when, price).",
+    "Under each dimension write every option you can think of.",
+    "Make sure dimensions are independent of each other; merge any that are not.",
+    "Choose one option per dimension to form a concept; do this many times, including odd combinations.",
+    "Select the combinations that nobody around you would have proposed."
+   ],
+   "produces": "a grid of dimensions and options plus a list of unusual combinations",
+   "failure_mode": "Dimensions that depend on each other, which produces impossible combinations.",
+   "time_cost": "medium",
+   "group": "either",
+   "pairs_with": [
+    "create.errc-grid",
+    "create.constraint-injection"
+   ]
+  },
+  {
+   "slug": "create.triz-contradiction",
+   "name": "Resolve the contradiction",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Genrich Altshuller",
+    "work": "TRIZ; 40 Inventive Principles",
+    "type": "practitioner",
+    "year": "1946–1984"
+   },
+   "source_verified": false,
+   "summary": "State the problem as a contradiction: improving X worsens Y. Then look for a principle that removes the trade-off (separate in time, in space, by condition, by scale) instead of compromising between the two.",
+   "key_question": "What gets worse when this gets better, and how could both improve?",
+   "status": "complete",
+   "aka": [
+    "TRIZ"
+   ],
+   "card": "Name the trade-off. Now separate it in time, space or scale.",
+   "tension_with": [
+    "mm.trade-offs"
+   ],
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "we can't have both quality and speed",
+    "improving one thing breaks another",
+    "stuck in a trade-off",
+    "I keep compromising between two goals"
+   ],
+   "steps": [
+    "Write the contradiction as: improving A makes B worse.",
+    "Ask whether A and B conflict at all times or only under some conditions.",
+    "Try the four separations: in time, in space, by condition, by scale.",
+    "Check a list of inventive principles for ones that fit your separation.",
+    "Write each candidate as a concrete change, not a compromise."
+   ],
+   "produces": "a statement of the contradiction and candidate separations that remove it",
+   "failure_mode": "Settling for a midpoint compromise and calling it a resolution.",
+   "time_cost": "medium",
+   "group": "either",
+   "pairs_with": [
+    "create.janusian",
+    "create.constraint-injection"
+   ]
+  },
+  {
+   "slug": "create.sit-templates",
+   "name": "Inside-the-box templates",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "empirical",
+   "origin": {
+    "author": "Jacob Goldenberg & Drew Boyd",
+    "work": "Inside the Box",
+    "type": "academic",
+    "year": 2013,
+    "url": "https://www.simonandschuster.com/books/Inside-the-Box/Drew-Boyd/9781451659306"
+   },
+   "source_verified": true,
+   "summary": "Five moves applied to the existing components of a product or process: subtract an essential part, divide it, multiply a part with a change, give one part an extra job, link two variables that were independent.",
+   "key_question": "What happens if I remove the part that seems essential?",
+   "status": "complete",
+   "aka": [
+    "Systematic Inventive Thinking",
+    "SIT"
+   ],
+   "evidence_note": "Template-based ideation outperformed free ideation in expert-rated originality (Goldenberg, Mazursky & Solomon, Science 1999). Lab study; transfer to field settings less tested.",
+   "card": "Remove the component everyone thinks is essential. What could it still do?",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "improve a mature product with what we already have",
+    "ideas without adding cost",
+    "a new use for our existing parts",
+    "innovate within the current resources"
+   ],
+   "steps": [
+    "List the components of the product or process and the attributes that matter.",
+    "Apply subtraction: remove an essential part and ask what the product becomes.",
+    "Apply division, multiplication, task unification and attribute dependency to the components.",
+    "Write one concrete idea per template application.",
+    "Keep ideas that use only things already in the system."
+   ],
+   "produces": "an idea list generated from five template moves on existing components",
+   "failure_mode": "Treating every template as mandatory and forcing ideas that do not fit.",
+   "time_cost": "medium",
+   "group": "either",
+   "pairs_with": [
+    "create.subtraction",
+    "create.scamper"
+   ]
+  },
+  {
+   "slug": "create.subtraction",
+   "name": "Subtraction",
+   "kind": "principle",
+   "mode": "lens",
+   "evidence_class": "empirical",
+   "origin": {
+    "author": "Gabrielle Adams, Benjamin Converse, Andrew Hales, Leidy Klotz",
+    "work": "People systematically overlook subtractive changes (Nature)",
+    "type": "academic",
+    "year": 2021,
+    "url": "https://doi.org/10.1038/s41586-021-03380-y"
+   },
+   "source_verified": true,
+   "summary": "People default to adding when they improve something. Explicitly ask what to remove. The subtractive option is often cheaper and better, and is missed unless prompted.",
+   "key_question": "What could I take away instead of adding?",
+   "status": "complete",
+   "evidence_note": "Eight experiments, Nature 2021: participants overlooked subtractive solutions unless cued. Robust within the paradigm; applied effect sizes unknown.",
+   "card": "Solve it only by removing things.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "this process has too many steps",
+    "we keep adding features",
+    "simplify this",
+    "what can we remove"
+   ],
+   "produces": "a list of removable parts with the effect of removing each",
+   "failure_mode": "Removing something that carried a real function that nobody wrote down.",
+   "time_cost": "quick",
+   "group": "either",
+   "pairs_with": [
+    "create.sit-templates",
+    "create.ten-x"
+   ]
+  },
+  {
+   "slug": "create.attribute-listing",
+   "name": "Attribute listing",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Robert P. Crawford",
+    "work": "Techniques of Creative Thinking",
+    "type": "practitioner",
+    "year": 1954,
+    "url": "https://libcat.library.tamu.edu/Record/in00000051134/Description"
+   },
+   "source_verified": true,
+   "summary": "Break the thing into its attributes (material, shape, price, user, timing) and change one attribute at a time. A disciplined way to find improvements in a mature product.",
+   "key_question": "Which single attribute have I never questioned?",
+   "status": "complete",
+   "card": "List eight attributes. Change the most taken-for-granted one.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "improve a product feature by feature",
+    "a mature product needs fresh ideas",
+    "systematic improvement ideas",
+    "which part of this could change"
+   ],
+   "steps": [
+    "Pick the thing and list its attributes: parts, materials, shape, price, user, place, timing.",
+    "Take one attribute at a time and write alternatives for it.",
+    "Pair a changed attribute with the others to see what it implies.",
+    "Highlight changes the customer would notice.",
+    "Cluster and shortlist."
+   ],
+   "produces": "an attribute table with alternatives per attribute",
+   "failure_mode": "Listing only physical attributes and ignoring the user, place and timing.",
+   "time_cost": "medium",
+   "group": "solo",
+   "pairs_with": [
+    "create.scamper",
+    "create.morphological-box"
+   ]
+  },
+  {
+   "slug": "create.assumption-reversal",
+   "name": "Assumption reversal",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Michael Michalko",
+    "work": "Thinkertoys",
+    "type": "practitioner",
+    "year": 1991
+   },
+   "source_verified": false,
+   "summary": "List the assumptions a domain takes for granted, flip each one into its opposite, then ask how the reversed version could work.",
+   "key_question": "What does everyone here assume, and what if the opposite were true?",
+   "status": "complete",
+   "card": "Write the rule of this industry. Now build a business on its opposite.",
+   "tension_with": [
+    "mm.replication"
+   ],
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "everyone does it this way",
+    "challenge how we usually do this",
+    "I want a contrarian angle",
+    "what if the opposite were true"
+   ],
+   "steps": [
+    "List ten or more assumptions that people in this domain take for granted.",
+    "Rewrite each assumption as its opposite.",
+    "For each reversed statement, ask how it could work and who would benefit.",
+    "Pick the two most surprising reversals and develop each into an idea.",
+    "Flag which assumptions looked like real constraints for later checking."
+   ],
+   "produces": "a list of assumptions, their reversals and developed ideas from the best two",
+   "failure_mode": "Reversing the obvious assumptions and never finding the hidden ones.",
+   "time_cost": "medium",
+   "group": "either",
+   "pairs_with": [
+    "create.provocation",
+    "create.worst-idea"
+   ]
+  },
+  {
+   "slug": "create.provocation",
+   "name": "Provocation (PO)",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Edward de Bono",
+    "work": "Lateral Thinking",
+    "type": "practitioner",
+    "year": 1970
+   },
+   "source_verified": false,
+   "summary": "State something deliberately false or impossible, then use it as a stepping stone: extract a principle from it, move to a workable idea. Judging the provocation itself is the mistake.",
+   "key_question": "If this absurd statement were true, what useful principle would it point to?",
+   "status": "complete",
+   "card": "Say something impossible about the problem. Then mine it.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "I need a breakthrough, not an improvement",
+    "we are in a rut",
+    "something crazy to start from",
+    "think laterally about this"
+   ],
+   "steps": [
+    "Write a deliberately false or impossible statement about the topic, such as 'the shop has no customers'.",
+    "Do not judge it; ask what would follow if it were true.",
+    "Extract a principle or a moment of value from the provocation.",
+    "Move from the principle to a workable idea.",
+    "Write the idea down without referring to the provocation."
+   ],
+   "produces": "a provocation, the principle drawn from it and a workable idea built on that principle",
+   "failure_mode": "Dismissing the provocation as silly instead of using it as a stepping stone.",
+   "time_cost": "quick",
+   "group": "either",
+   "pairs_with": [
+    "create.random-entry",
+    "create.assumption-reversal"
+   ]
+  },
+  {
+   "slug": "create.random-entry",
+   "name": "Random entry",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Edward de Bono",
+    "work": "Lateral Thinking",
+    "type": "practitioner",
+    "year": 1970
+   },
+   "source_verified": false,
+   "summary": "Pick an unrelated word or object at random and force connections between it and the problem. Breaks the well-worn association paths the mind returns to.",
+   "key_question": "What does this random thing have to do with my problem?",
+   "status": "complete",
+   "card": "Draw a random noun. Connect it to the problem three different ways.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "I am stuck on the same few ideas",
+    "I need names or concepts that are different",
+    "give me something unexpected",
+    "break my usual train of thought"
+   ],
+   "steps": [
+    "Choose a random word from a list, a book or a prompt generator, not one related to the topic.",
+    "Write down ten attributes, associations and uses of that word.",
+    "Force a connection between each and the problem.",
+    "Capture every idea, then trim.",
+    "Draw a second random word if the first yields nothing."
+   ],
+   "produces": "a list of forced-connection ideas from one or two random words",
+   "failure_mode": "Rejecting the random word as irrelevant instead of forcing connections.",
+   "time_cost": "quick",
+   "group": "either",
+   "pairs_with": [
+    "create.provocation",
+    "create.bisociation"
+   ]
+  },
+  {
+   "slug": "create.bisociation",
+   "name": "Bisociation",
+   "kind": "principle",
+   "mode": "lens",
+   "evidence_class": "analogical",
+   "origin": {
+    "author": "Arthur Koestler",
+    "work": "The Act of Creation",
+    "type": "academic",
+    "year": 1964
+   },
+   "source_verified": false,
+   "summary": "Creative insight as the collision of two frames of reference that do not normally meet. Deliberately pair the problem with an unrelated domain and look for the point of contact.",
+   "key_question": "Which unrelated field, collided with this one, produces something new?",
+   "status": "complete",
+   "card": "Pick a field with no connection to yours. Where do the two meet?",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "what two worlds could meet here",
+    "combine two unrelated fields",
+    "an unexpected pairing for a product",
+    "new concept from two domains"
+   ],
+   "produces": "a pairing of two unrelated domains and the new ideas at their intersection",
+   "failure_mode": "Choosing two domains that are only superficially different and getting a pun, not an idea.",
+   "time_cost": "medium",
+   "group": "either",
+   "pairs_with": [
+    "create.cross-pollination",
+    "create.synectics"
+   ]
+  },
+  {
+   "slug": "create.synectics",
+   "name": "Make it strange",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "analogical",
+   "origin": {
+    "author": "William J. J. Gordon",
+    "work": "Synectics: The Development of Creative Capacity",
+    "type": "practitioner",
+    "year": 1961
+   },
+   "source_verified": false,
+   "summary": "Use direct, personal and fantastic analogies to make the familiar strange: become the object, describe it as nature would solve it, imagine it without physical limits.",
+   "key_question": "If I were the object itself, what would I want?",
+   "status": "complete",
+   "card": "You are the product. Describe your day and what annoys you.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "help me see this familiar thing differently",
+    "I'm too close to the problem",
+    "metaphors for my problem",
+    "what would it feel like to be the product"
+   ],
+   "steps": [
+    "Describe the problem and pick the object at its centre.",
+    "Direct analogy: how does something in nature or another field do this?",
+    "Personal analogy: imagine being the object; what do you feel, want, fear?",
+    "Fantasy analogy: if physics and budget did not matter, how would it work?",
+    "Return to the real problem and turn the best analogy into a concrete idea."
+   ],
+   "produces": "three analogies and a concrete idea drawn from the strongest one",
+   "failure_mode": "Staying in the metaphor and never translating it back into something buildable.",
+   "time_cost": "medium",
+   "group": "either",
+   "pairs_with": [
+    "create.biomimicry",
+    "create.perspective-shift"
+   ]
+  },
+  {
+   "slug": "create.analogical-transfer",
+   "name": "Who else solved this",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "empirical",
+   "origin": {
+    "author": "Mary Gick & Keith Holyoak",
+    "work": "Analogical problem solving (Cognitive Psychology)",
+    "type": "academic",
+    "year": 1980
+   },
+   "source_verified": false,
+   "summary": "Abstract the problem to its structure, then search other fields for a solved problem with the same structure and transfer the solution.",
+   "key_question": "Where has a problem with this exact structure already been solved?",
+   "status": "complete",
+   "evidence_note": "Analogical transfer works when people are prompted to look for it; spontaneous transfer is rare (Gick & Holyoak 1980, 1983).",
+   "card": "Strip your problem to one abstract sentence. Who solved that sentence?",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "has anyone solved something like this before",
+    "borrow a solution from another industry",
+    "we're not the first with this problem",
+    "look at how other fields handle this"
+   ],
+   "steps": [
+    "Restate the problem abstractly, stripped of domain words (for example 'moving many items quickly through a bottleneck').",
+    "Search other fields for a solved problem with the same structure.",
+    "List three or four candidate fields and how each solved it.",
+    "Map the parts of the solved case onto your case.",
+    "Write the transferred solution and note what does not map."
+   ],
+   "produces": "an abstracted problem statement and two or three transferred solutions with the mapping noted",
+   "failure_mode": "Transferring on surface similarity when the underlying structure differs.",
+   "time_cost": "medium",
+   "group": "either",
+   "pairs_with": [
+    "create.biomimicry",
+    "create.cross-pollination"
+   ]
+  },
+  {
+   "slug": "create.biomimicry",
+   "name": "Ask nature",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "analogical",
+   "origin": {
+    "author": "Janine Benyus",
+    "work": "Biomimicry: Innovation Inspired by Nature",
+    "type": "practitioner",
+    "year": 1997
+   },
+   "source_verified": false,
+   "summary": "Restate the function needed (adhere, cool, filter, signal) and look for organisms that perform it. A specific form of analogical transfer with a large library.",
+   "key_question": "How does nature perform this function?",
+   "status": "complete",
+   "card": "Name the function. Which animal or plant already does it?",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "how would nature solve this",
+    "design inspired by biology",
+    "I need a way to cool, filter, stick or signal",
+    "ideas from animals and plants"
+   ],
+   "steps": [
+    "Restate the problem as a function: what must be done, not what object does it.",
+    "Ask which organisms need to do the same thing in their environment.",
+    "Study the strategy each organism uses and list its principles.",
+    "Translate each principle into a design idea for your context.",
+    "Note constraints that nature has that you do not, and the reverse."
+   ],
+   "produces": "a function statement, candidate organisms and design ideas translated from their strategies",
+   "failure_mode": "Copying the form of the organism and missing the principle behind it.",
+   "time_cost": "medium",
+   "group": "either",
+   "pairs_with": [
+    "create.analogical-transfer",
+    "create.synectics"
+   ]
+  },
+  {
+   "slug": "create.adjacent-possible",
+   "name": "Adjacent possible",
+   "kind": "model",
+   "mode": "lens",
+   "evidence_class": "analogical",
+   "origin": {
+    "author": "Stuart Kauffman; Steven Johnson",
+    "work": "Investigations; Where Good Ideas Come From",
+    "type": "academic",
+    "year": "2000; 2010"
+   },
+   "source_verified": false,
+   "summary": "The ideas reachable now are one step from what already exists. Map what has just become possible (new tools, costs, behaviours) and look one step beyond it.",
+   "key_question": "What became possible in the last two years that makes a new move one step away?",
+   "status": "complete",
+   "card": "What is newly cheap, newly fast or newly allowed? Step once past it.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "what is newly possible now",
+    "ideas that fit where technology is heading",
+    "a new product idea at the right time",
+    "what could we build with what just became cheap"
+   ],
+   "produces": "a list of recent enabling changes and the next-step ideas each one makes reachable",
+   "failure_mode": "Listing trends without turning any of them into a specific next step.",
+   "time_cost": "medium",
+   "group": "either",
+   "pairs_with": [
+    "create.morphological-box",
+    "create.bisociation"
+   ]
+  },
+  {
+   "slug": "create.janusian",
+   "name": "Hold both opposites",
+   "kind": "principle",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Albert Rothenberg",
+    "work": "The Emerging Goddess",
+    "type": "academic",
+    "year": 1979
+   },
+   "source_verified": false,
+   "summary": "Conceive two opposite or contradictory ideas as true at the same time and build from the tension rather than choosing one.",
+   "key_question": "What if both of the opposing options were true at once?",
+   "status": "complete",
+   "card": "Write the two opposites. Design something where both hold.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "two opposite options both seem right",
+    "I don't want to choose between these",
+    "how can it be both cheap and premium",
+    "reconcile two conflicting demands"
+   ],
+   "produces": "an idea in which two opposing statements are both treated as true",
+   "failure_mode": "Collapsing into a compromise instead of holding both statements as fully true.",
+   "time_cost": "medium",
+   "group": "solo",
+   "pairs_with": [
+    "create.triz-contradiction",
+    "create.constraint-injection"
+   ]
+  },
+  {
+   "slug": "create.dreamer-realist-critic",
+   "name": "Dreamer, Realist, Critic",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Robert Dilts",
+    "work": "Strategies of Genius, Vol. 1",
+    "type": "practitioner",
+    "year": 1994,
+    "note": "Dilts' model of how Walt Disney worked; avoid 'Disney' in the method name (trademark list)."
+   },
+   "source_verified": false,
+   "summary": "Three separate passes with three separate roles: the Dreamer imagines without limits, the Realist plans how it would actually work, the Critic finds the weak points. Never two roles at once.",
+   "key_question": "Which of the three roles have I skipped or blended?",
+   "status": "complete",
+   "card": "Five minutes as the Dreamer only. No 'but'.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "how do I make a big idea realistic",
+    "my plan needs a dream phase and a reality check",
+    "work through an idea in stages",
+    "I keep mixing creativity and criticism"
+   ],
+   "steps": [
+    "Dreamer pass: write the ideal outcome with no limits and no judgment.",
+    "Take a physical or mental break to change role.",
+    "Realist pass: describe how each part could actually be done, with steps and resources.",
+    "Critic pass: list what could fail and what is missing.",
+    "Send the critic's notes back to the dreamer for a second round if needed."
+   ],
+   "produces": "three separate written passes: the ideal, the plan and the weak points",
+   "failure_mode": "Letting the critic speak during the dreamer pass, which empties the first pass.",
+   "time_cost": "medium",
+   "group": "either",
+   "pairs_with": [
+    "create.diverge-then-converge",
+    "create.yes-and"
+   ]
+  },
+  {
+   "slug": "create.worst-idea",
+   "name": "Worst possible idea",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Unattributed (common facilitation practice)",
+    "work": "Reverse brainstorming",
+    "type": "practitioner",
+    "note": "Origin unverified; attribute as common practice unless a source is found."
+   },
+   "source_verified": false,
+   "summary": "Generate the worst ideas on purpose, then invert each one or find the grain of value inside it. Lowers the fear of looking foolish and exposes hidden criteria.",
+   "key_question": "What would make this as bad as possible, and what does the reverse suggest?",
+   "status": "complete",
+   "aka": [
+    "Reverse brainstorming"
+   ],
+   "card": "Ten terrible ideas. Then flip each one.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "the room is too serious",
+    "we are afraid of looking silly",
+    "ideas to avoid and what they teach",
+    "break a creative block by being terrible"
+   ],
+   "steps": [
+    "Ask for the worst possible ideas for the challenge and write them all.",
+    "Make the group compete on how terrible they can be.",
+    "Take each bad idea and write its opposite.",
+    "Look inside each bad idea for a grain of value or a hidden criterion.",
+    "Move the good inversions to the main idea list."
+   ],
+   "produces": "a list of worst ideas, their inversions and the criteria they exposed",
+   "failure_mode": "Treating it as a game only and never inverting the results.",
+   "time_cost": "quick",
+   "group": "either",
+   "pairs_with": [
+    "create.assumption-reversal",
+    "create.provocation"
+   ]
+  },
+  {
+   "slug": "create.lotus-blossom",
+   "name": "Lotus blossom",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Yasuo Matsumura",
+    "work": "Clover Management Research",
+    "type": "practitioner",
+    "year": "c. 1980s",
+    "note": "Attribution to Matsumura is common in creativity literature (e.g. Michalko); verify."
+   },
+   "source_verified": false,
+   "summary": "A 3x3 grid with the challenge at the centre and eight themes around it; each theme becomes the centre of its own grid of eight ideas. Sixty-four ideas organised by theme.",
+   "key_question": "Have I expanded every theme, or only the first two?",
+   "status": "complete",
+   "card": "Centre: the challenge. Eight themes around it. Fill one full petal.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "I need many ideas organised by theme",
+    "break a big topic into themes and expand each",
+    "a structured way to get 60 ideas",
+    "ideas for a complex topic"
+   ],
+   "steps": [
+    "Draw a 3x3 grid and write the challenge in the centre.",
+    "Fill the eight surrounding cells with themes or sub-topics.",
+    "Copy each theme to the centre of its own 3x3 grid.",
+    "Fill the eight cells around each theme with ideas.",
+    "Review the whole set and highlight the strongest ideas across themes."
+   ],
+   "produces": "a lotus grid with eight themes and up to 64 ideas",
+   "failure_mode": "Stopping after the first two or three themes.",
+   "time_cost": "medium",
+   "group": "either",
+   "pairs_with": [
+    "create.mind-map",
+    "create.brainwriting"
+   ]
+  },
+  {
+   "slug": "create.errc-grid",
+   "name": "Eliminate-Reduce-Raise-Create grid",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "W. Chan Kim & Renée Mauborgne",
+    "work": "Blue Ocean Strategy",
+    "type": "academic",
+    "year": 2005,
+    "note": "Do not use 'Blue Ocean' in the method name (trademark list)."
+   },
+   "source_verified": false,
+   "summary": "Four questions on the factors an industry competes on: which to eliminate, which to reduce below standard, which to raise above standard, which to create that nobody offers.",
+   "key_question": "Which factor does everyone compete on that the customer does not value?",
+   "status": "complete",
+   "card": "Pick one industry standard to eliminate and one never offered to create.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "how do we stand out from competitors",
+    "differentiate our offer",
+    "a new angle on our market",
+    "we compete on the same things as everyone"
+   ],
+   "steps": [
+    "List the factors the industry competes on (price, speed, features, service, and so on).",
+    "Mark which factors to eliminate that the industry takes for granted.",
+    "Mark which to reduce well below the standard.",
+    "Mark which to raise well above the standard.",
+    "List new factors to create that nobody offers, then write the offer implied by the grid."
+   ],
+   "produces": "a four-action grid (eliminate, reduce, raise, create) and the offer it implies",
+   "failure_mode": "Raising everything and eliminating nothing, which only adds cost.",
+   "time_cost": "medium",
+   "group": "either",
+   "pairs_with": [
+    "create.assumption-reversal",
+    "create.morphological-box"
+   ]
+  },
+  {
+   "slug": "create.constraint-injection",
+   "name": "Add a constraint",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "empirical",
+   "origin": {
+    "author": "Patricia Stokes; Catrinel Haught-Tromp",
+    "work": "Creativity from Constraints; The Green Eggs and Ham hypothesis",
+    "type": "academic",
+    "year": "2005; 2017"
+   },
+   "source_verified": false,
+   "summary": "Impose an arbitrary limit (half the budget, no screens, one day, only existing staff) and solve within it. Constraints narrow the search and often push past the obvious.",
+   "key_question": "What constraint would force me away from the obvious answer?",
+   "status": "complete",
+   "evidence_note": "Haught-Tromp 2017 (Psychology of Aesthetics, Creativity, and the Arts): constrained prompts produced more creative output. Single-lab evidence; treat as suggestive.",
+   "card": "Solve it with zero budget. Then with a hundred times the budget.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "too many options and no direction",
+    "what would I do with half the budget",
+    "force a fresh approach",
+    "ideas when time is short"
+   ],
+   "steps": [
+    "State the challenge and the normal way it is solved.",
+    "Pick an arbitrary constraint: half the budget, one day, no screens, only existing staff.",
+    "Generate ideas that satisfy the constraint.",
+    "Pick a second, different constraint and repeat.",
+    "Compare the ideas and keep those that survive without the constraint."
+   ],
+   "produces": "idea sets from two or more imposed constraints",
+   "failure_mode": "Choosing a constraint so mild that it changes nothing.",
+   "time_cost": "quick",
+   "group": "either",
+   "pairs_with": [
+    "create.crazy-8s",
+    "create.triz-contradiction"
+   ]
+  },
+  {
+   "slug": "create.ten-x",
+   "name": "Ten times, not ten percent",
+   "kind": "principle",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Astro Teller",
+    "work": "X (moonshot factory) talks and essays",
+    "type": "industry",
+    "year": "c. 2013–2016"
+   },
+   "source_verified": false,
+   "summary": "Aim for a tenfold improvement instead of a marginal one. Incremental targets invite incremental fixes; a tenfold target forces a different approach entirely.",
+   "key_question": "What would have to be true to make this ten times better rather than ten percent?",
+   "status": "complete",
+   "card": "Make it ten times better. What do you have to throw away?",
+   "tension_with": [
+    "mm.margin-of-safety"
+   ],
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "a small improvement is not enough",
+    "what would make it ten times better",
+    "aim bigger on this goal",
+    "incremental changes are not working"
+   ],
+   "produces": "a restated goal at ten times the target and the changes it would force",
+   "failure_mode": "Using a ten-times target on a decision where reliability matters more than ambition.",
+   "time_cost": "quick",
+   "group": "either",
+   "pairs_with": [
+    "create.assumption-reversal",
+    "create.constraint-injection"
+   ]
+  },
+  {
+   "slug": "create.crazy-8s",
+   "name": "Crazy 8s",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Jake Knapp, John Zeratsky, Braden Kowitz",
+    "work": "Sprint",
+    "type": "industry",
+    "year": 2016,
+    "note": "From the Google Ventures sprint process; avoid trademarked process names."
+   },
+   "source_verified": false,
+   "summary": "Eight distinct sketches or variations in eight minutes. The time pressure stops polishing and forces variety.",
+   "key_question": "Can I produce eight different versions before I start refining one?",
+   "status": "complete",
+   "card": "Eight variations in eight minutes. Stick figures allowed.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "I need many different versions fast",
+    "sketch ideas for a screen or layout",
+    "give me variations quickly",
+    "get unstuck on the first idea"
+   ],
+   "steps": [
+    "Fold a sheet into eight panels or open eight blank boxes.",
+    "Set a timer for eight minutes.",
+    "Sketch or describe a different version in each panel, about one minute each.",
+    "Do not refine; move on when the minute ends.",
+    "Pin the sheets up and mark the two or three most promising."
+   ],
+   "produces": "eight distinct rough versions of one idea",
+   "failure_mode": "Polishing the first panel instead of moving on.",
+   "time_cost": "quick",
+   "group": "either",
+   "pairs_with": [
+    "create.idea-quota",
+    "create.constraint-injection"
+   ]
+  },
+  {
+   "slug": "create.mind-map",
+   "name": "Mind map",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Tony Buzan",
+    "work": "Use Your Head",
+    "type": "practitioner",
+    "year": 1974
+   },
+   "source_verified": false,
+   "summary": "Put the challenge at the centre and branch outward by association, one word per branch. Useful to map a space quickly before choosing where to dig.",
+   "key_question": "Which branch did I abandon too early?",
+   "status": "complete",
+   "card": "Centre word. Five branches. Push the strangest branch three levels deeper.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "map out everything about this topic",
+    "I'm not sure where to dig yet",
+    "organise my scattered thoughts into branches",
+    "see the whole space of options"
+   ],
+   "steps": [
+    "Write the topic in the centre.",
+    "Draw main branches for the major themes, one word each.",
+    "Add sub-branches by association, quickly and without editing.",
+    "Circle links between branches that touch.",
+    "Pick two or three branches to take into a deeper method."
+   ],
+   "produces": "a one-page map of branches and cross-links with chosen areas to explore",
+   "failure_mode": "Drawing a tidy outline instead of following associations, which adds no new connections.",
+   "time_cost": "quick",
+   "group": "solo",
+   "pairs_with": [
+    "create.lotus-blossom",
+    "create.morphological-box"
+   ]
+  },
+  {
+   "slug": "create.perspective-shift",
+   "name": "Borrowed eyes",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Rick Griggs (role storming)",
+    "work": "Role storming",
+    "type": "practitioner",
+    "year": "c. 1980s",
+    "note": "Role-storming attribution to Griggs is commonly cited; verify."
+   },
+   "source_verified": false,
+   "summary": "Generate ideas as a specific other person or role would: a competitor, a child, a regulator, a famous designer, your harshest customer. Each persona unlocks ideas you would self-censor.",
+   "key_question": "How would someone with completely different incentives attack this?",
+   "status": "complete",
+   "card": "You are your fiercest competitor. How do you beat you?",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "how would a competitor see this",
+    "ideas from the customer's point of view",
+    "I'm stuck in my own way of seeing it",
+    "what would a ten-year-old do"
+   ],
+   "steps": [
+    "List five or six distinct roles: a competitor, a child, a regulator, an expert from another field, a harsh critic.",
+    "Take one role at a time and write down their goals and fears.",
+    "Generate ideas the way that person would attack the problem.",
+    "Switch role after a few minutes.",
+    "Collect all ideas and note which ones came only from a role you rarely take."
+   ],
+   "produces": "idea lists written in several distinct personas",
+   "failure_mode": "Using roles that think the way you do, which repeats your own ideas.",
+   "time_cost": "quick",
+   "group": "either",
+   "pairs_with": [
+    "create.synectics",
+    "create.cross-pollination"
+   ]
+  },
+  {
+   "slug": "create.yes-and",
+   "name": "Yes, and",
+   "kind": "principle",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Keith Johnstone; improvisational theatre",
+    "work": "Impro: Improvisation and the Theatre",
+    "type": "practitioner",
+    "year": 1979
+   },
+   "source_verified": false,
+   "summary": "Accept the previous idea and build on it before adding a new one. Keeps a chain of ideas growing instead of resetting with each contribution.",
+   "key_question": "Did I build on the last idea or replace it?",
+   "status": "complete",
+   "card": "Take the last idea. Say 'yes, and' three times in a row.",
+   "tension_with": [
+    "create.brainwriting"
+   ],
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "ideas keep dying in the meeting",
+    "build on what the last person said",
+    "grow one idea instead of replacing it",
+    "improv-style ideation"
+   ],
+   "produces": "a chain of developed ideas where each builds on the previous one",
+   "failure_mode": "Saying yes-and to everything and never moving to selection.",
+   "time_cost": "quick",
+   "group": "group",
+   "pairs_with": [
+    "create.brainwriting",
+    "create.dreamer-realist-critic"
+   ]
+  },
+  {
+   "slug": "create.incubation",
+   "name": "Incubate",
+   "kind": "principle",
+   "mode": "lens",
+   "evidence_class": "empirical",
+   "origin": {
+    "author": "James Webb Young; Ut Na Sio & Thomas Ormerod",
+    "work": "A Technique for Producing Ideas; Does incubation enhance problem solving? (meta-analysis)",
+    "type": "academic",
+    "year": "1940; 2009"
+   },
+   "source_verified": false,
+   "summary": "Load the problem fully, then step away to unrelated activity before returning. Breaks fixation on the first approach.",
+   "key_question": "Have I loaded the problem fully, and then actually stepped away from it?",
+   "status": "complete",
+   "evidence_note": "Sio & Ormerod 2009 meta-analysis: positive incubation effect, larger for divergent tasks. Mechanism disputed.",
+   "card": "Write everything you know. Walk away. Come back tomorrow with fresh eyes.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "I've been staring at this for hours",
+    "I need a break but want to solve it",
+    "sleep on it",
+    "let it simmer"
+   ],
+   "produces": "a written problem load, a scheduled break and a review of what changed on return",
+   "failure_mode": "Taking the break without loading the problem first, so nothing incubates.",
+   "time_cost": "deep",
+   "group": "solo",
+   "pairs_with": [
+    "create.oblique-prompts",
+    "create.diverge-then-converge"
+   ]
+  },
+  {
+   "slug": "create.oblique-prompts",
+   "name": "Oblique prompts",
+   "kind": "method",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Panta Rhei prompt deck (inspired by Brian Eno & Peter Schmidt)",
+    "work": "Original deck; inspiration: Oblique Strategies",
+    "type": "practitioner",
+    "year": 1975,
+    "note": "Ship only original prompts. Oblique Strategies text is copyrighted and on the trademark list as a name."
+   },
+   "source_verified": false,
+   "summary": "A deck of short, indirect instructions drawn at random when stuck. Ships with its own original prompts; the Eno–Schmidt cards are not reproduced.",
+   "key_question": "What does a sideways instruction make me try that a direct one would not?",
+   "status": "complete",
+   "card": "Draw an oblique prompt and obey it literally for five minutes.",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "I'm completely stuck",
+    "we've tried everything",
+    "give me a sideways instruction",
+    "a nudge to break a creative block"
+   ],
+   "steps": [
+    "State the challenge and the current approach in one line.",
+    "Draw a prompt from the deck without choosing.",
+    "Follow the instruction literally for a few minutes and note what it changes.",
+    "If it fits nothing, draw again once.",
+    "Keep whatever the prompt changed in your approach."
+   ],
+   "produces": "a changed approach to the challenge, recorded after following one or two prompts",
+   "failure_mode": "Redrawing until the prompt is comfortable, which defeats the point.",
+   "time_cost": "quick",
+   "group": "either",
+   "pairs_with": [
+    "create.provocation",
+    "create.random-entry"
+   ]
+  },
+  {
+   "slug": "create.cross-pollination",
+   "name": "Intersection",
+   "kind": "principle",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Frans Johansson",
+    "work": "The Medici Effect",
+    "type": "practitioner",
+    "year": 2004
+   },
+   "source_verified": false,
+   "summary": "Ideas cluster where fields, cultures and disciplines intersect. Bring in a person or a body of knowledge from outside the domain on purpose.",
+   "key_question": "Who from a completely different field should look at this?",
+   "status": "complete",
+   "card": "Invite a chef, a pilot and a nurse. What would each change?",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "who from another field could help",
+    "ideas where two disciplines meet",
+    "our group thinks alike",
+    "bring in outside knowledge"
+   ],
+   "produces": "a list of outside fields or people to consult and the questions to ask them",
+   "failure_mode": "Inviting outsiders and then filtering their input through insider assumptions.",
+   "time_cost": "medium",
+   "group": "either",
+   "pairs_with": [
+    "create.bisociation",
+    "create.analogical-transfer"
+   ]
+  }
+ ]
+}

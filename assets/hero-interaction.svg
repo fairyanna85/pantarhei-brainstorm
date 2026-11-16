@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="The Deck: a sample output of Panta Rhei brainstorm">
+<rect width="1200" height="230" rx="14" fill="#14161A"/>
+<circle cx="34" cy="34" r="6" fill="#F07AA6"/><text x="52" y="39" font-family="'JetBrains Mono','DejaVu Sans Mono',Menlo,Consolas,monospace" font-size="14" fill="#A9B0BC" letter-spacing="1">THE DECK</text>
+<text x="40" y="82" font-family="'JetBrains Mono','DejaVu Sans Mono',Menlo,Consolas,monospace" font-size="14" fill="#F07AA6" xml:space="preserve">┌─ CARD · SUBTRACTION ────────────────────────────┐</text>
+<text x="40" y="104" font-family="'JetBrains Mono','DejaVu Sans Mono',Menlo,Consolas,monospace" font-size="14" fill="#F07AA6" xml:space="preserve">│ Solve it only by removing things.               │</text>
+<text x="40" y="126" font-family="'JetBrains Mono','DejaVu Sans Mono',Menlo,Consolas,monospace" font-size="14" fill="#F07AA6" xml:space="preserve">│ Adams, Converse, Hales &amp; Klotz · Nature 2021    │</text>
+<text x="40" y="148" font-family="'JetBrains Mono','DejaVu Sans Mono',Menlo,Consolas,monospace" font-size="14" fill="#F07AA6" xml:space="preserve">│ [empirical]                                     │</text>
+<text x="40" y="170" font-family="'JetBrains Mono','DejaVu Sans Mono',Menlo,Consolas,monospace" font-size="14" fill="#F07AA6" xml:space="preserve">└─────────────────────────────────────────────────┘</text>
+</svg>

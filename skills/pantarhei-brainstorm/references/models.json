@@ -1,0 +1,604 @@
+{
+ "schema": "pantarhei-core/schema/method.schema.json",
+ "count": 16,
+ "records": [
+  {
+   "slug": "mm.first-principles-thinking",
+   "legacy_id": 3,
+   "name": "First Principles Thinking",
+   "kind": "model",
+   "mode": "lens",
+   "evidence_class": "formal",
+   "origin": {
+    "author": "Aristotle",
+    "work": "Posterior Analytics",
+    "type": "tradition",
+    "note": "Selection follows Farnam Street's Great Mental Models"
+   },
+   "source_verified": false,
+   "summary": "Strip a problem down to what is known to be true, discarding convention and analogy, then reason upward from there. Useful when the usual approach is assumed rather than justified.",
+   "key_question": "What is actually true here once convention, analogy and inherited process are stripped out?",
+   "stages": [
+    "decompose",
+    "generate"
+   ],
+   "use_when": [
+    "'that's how it's done here'",
+    "costs or constraints assumed fixed",
+    "incremental improvement has stalled"
+   ],
+   "produces": "irreducible constraint set and the solution space it permits",
+   "failure_mode": "Rebuilding systems whose conventions encode hard-won knowledge you have not yet recovered.",
+   "pairs_with": [
+    "mm.irreducibility",
+    "mm.trade-offs",
+    "mm.inversion",
+    "mm.equivalence"
+   ],
+   "tension_with": [
+    "mm.circle-of-competence",
+    "mm.velocity",
+    "mm.replication",
+    "mm.emergence",
+    "mm.irreducibility"
+   ],
+   "status": "seed"
+  },
+  {
+   "slug": "mm.thought-experiment",
+   "legacy_id": 4,
+   "name": "Thought Experiment",
+   "kind": "model",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Galileo; Albert Einstein",
+    "work": "Thought experiments in physics",
+    "type": "academic",
+    "note": "Selection follows Farnam Street's Great Mental Models"
+   },
+   "source_verified": false,
+   "summary": "Run the scenario in your head: change one variable, imagine the outcome, follow it through. Exposes hidden assumptions and consequences cheaply, before testing anything in the world.",
+   "key_question": "If I run this to its logical limit, what breaks and what becomes obvious?",
+   "stages": [
+    "generate",
+    "stress_test"
+   ],
+   "use_when": [
+    "real-world test is too costly or slow",
+    "contested counterfactual",
+    "untestable claim"
+   ],
+   "produces": "counterfactual scenarios and boundary conditions",
+   "failure_mode": "Treating imagined results as data. A thought experiment generates hypotheses, never evidence.",
+   "pairs_with": [
+    "mm.inversion",
+    "mm.second-order-thinking",
+    "mm.global-and-local-maxima"
+   ],
+   "tension_with": [
+    "mm.seeing-the-front"
+   ],
+   "status": "seed"
+  },
+  {
+   "slug": "mm.inversion",
+   "legacy_id": 7,
+   "name": "Inversion",
+   "kind": "model",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Carl Jacobi",
+    "work": "Jacobi's maxim, popularised by Charlie Munger",
+    "type": "academic",
+    "note": "Selection follows Farnam Street's Great Mental Models"
+   },
+   "source_verified": false,
+   "summary": "Approach the problem backwards: ask what would make it fail, or what you want to avoid, then steer away from that. Often clearer than asking directly how to succeed.",
+   "key_question": "What would guarantee failure here, and am I doing any of it?",
+   "stages": [
+    "generate",
+    "stress_test"
+   ],
+   "use_when": [
+    "stuck on how-to",
+    "ambitious goal",
+    "crowded or exhausted solution space"
+   ],
+   "produces": "ranked avoid-list of failure paths",
+   "failure_mode": "Avoidance-only strategy that eliminates downside without ever building upside.",
+   "pairs_with": [
+    "mm.margin-of-safety",
+    "mm.multiply-by-zero",
+    "mm.confirmation-bias-and-falsification",
+    "mm.thought-experiment"
+   ],
+   "tension_with": [
+    "mm.curiosity-instinct"
+   ],
+   "status": "seed"
+  },
+  {
+   "slug": "mm.alloying",
+   "legacy_id": 19,
+   "name": "Alloying",
+   "kind": "model",
+   "mode": "lens",
+   "evidence_class": "analogical",
+   "origin": {
+    "author": "Metallurgy",
+    "work": "Alloy design",
+    "type": "tradition",
+    "note": "Selection follows Farnam Street's Great Mental Models"
+   },
+   "source_verified": false,
+   "summary": "Combining ingredients in the right proportions can produce properties none of them has alone. Applied to skills or teams: an unusual mix can be worth more than depth in one area.",
+   "key_question": "Which combination of ordinary components produces a rare and valuable whole?",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "team composition",
+    "personal positioning",
+    "differentiation in a crowded field"
+   ],
+   "produces": "combination candidates with proportions",
+   "failure_mode": "Mixing without proportion, producing a blend that is mediocre at everything.",
+   "pairs_with": [
+    "mm.emergence",
+    "mm.niches",
+    "mm.specialization"
+   ],
+   "tension_with": [
+    "mm.specialization"
+   ],
+   "status": "seed"
+  },
+  {
+   "slug": "mm.replication",
+   "legacy_id": 25,
+   "name": "Replication",
+   "kind": "model",
+   "mode": "lens",
+   "evidence_class": "empirical",
+   "evidence_note": "Imitation of successful strategies is documented in social-learning and diffusion research. Copying fails when context differs, and survivorship hides the copiers that failed.",
+   "origin": {
+    "author": "Richard Dawkins",
+    "work": "The Selfish Gene (replicators)",
+    "type": "academic",
+    "note": "Selection follows Farnam Street's Great Mental Models",
+    "year": 1976
+   },
+   "source_verified": false,
+   "summary": "Copying a proven approach is often faster and safer than inventing one. Replicate what works to get a reliable base, then improve on it.",
+   "key_question": "Who has already solved this, and what precisely did they do?",
+   "stages": [
+    "generate",
+    "execute"
+   ],
+   "use_when": [
+    "entering a new domain",
+    "temptation to build from scratch",
+    "slow early progress"
+   ],
+   "produces": "proven baseline to replicate before innovating",
+   "failure_mode": "Copying a winner's visible traits without their unobserved conditions or luck.",
+   "pairs_with": [
+    "mm.failure-to-account-for-base-rates",
+    "mm.greshams-law"
+   ],
+   "tension_with": [
+    "mm.first-principles-thinking",
+    "mm.survivorship-bias",
+    "create.assumption-reversal"
+   ],
+   "status": "seed"
+  },
+  {
+   "slug": "mm.margin-of-safety",
+   "legacy_id": 34,
+   "name": "Margin of Safety",
+   "kind": "model",
+   "mode": "lens",
+   "evidence_class": "formal",
+   "origin": {
+    "author": "Benjamin Graham",
+    "work": "The Intelligent Investor",
+    "type": "practitioner",
+    "note": "Selection follows Farnam Street's Great Mental Models",
+    "year": 1949
+   },
+   "source_verified": false,
+   "summary": "Build in more capacity than the expected load requires, to absorb errors and surprises. The buffer costs efficiency in normal times and pays off in bad ones.",
+   "key_question": "What if I am wrong; how much buffer survives that?",
+   "stages": [
+    "decide"
+   ],
+   "use_when": [
+    "leverage or debt",
+    "plans with no slack",
+    "single points of failure"
+   ],
+   "produces": "required buffer and its cost",
+   "failure_mode": "Over-buffering into an uncompetitive cost structure; safety as an excuse for inaction.",
+   "pairs_with": [
+    "mm.debt",
+    "mm.multiply-by-zero",
+    "mm.probabilistic-thinking"
+   ],
+   "tension_with": [
+    "mm.friction-and-viscosity",
+    "mm.leverage",
+    "mm.global-and-local-maxima",
+    "mm.optimization",
+    "mm.efficiency",
+    "decide.expected-value",
+    "create.ten-x"
+   ],
+   "status": "seed"
+  },
+  {
+   "slug": "mm.emergence",
+   "legacy_id": 38,
+   "name": "Emergence",
+   "kind": "model",
+   "mode": "lens",
+   "evidence_class": "formal",
+   "origin": {
+    "author": "Philip W. Anderson",
+    "work": "More Is Different",
+    "type": "academic",
+    "note": "Selection follows Farnam Street's Great Mental Models",
+    "year": 1972
+   },
+   "source_verified": false,
+   "summary": "Interacting parts can produce behaviour that none of them has alone. The whole cannot always be predicted by studying the components one at a time.",
+   "key_question": "What property appears only when these parts interact?",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "whole-system behaviour",
+    "team dynamics",
+    "unexpected outcomes from known components"
+   ],
+   "produces": "emergent-property hypotheses to test",
+   "failure_mode": "Invoking emergence as a name for something you have simply not explained.",
+   "pairs_with": [
+    "mm.irreducibility",
+    "mm.ecosystems",
+    "mm.alloying"
+   ],
+   "tension_with": [
+    "mm.first-principles-thinking",
+    "mm.thermodynamics",
+    "mm.hierarchical-organization"
+   ],
+   "status": "seed"
+  },
+  {
+   "slug": "mm.equivalence",
+   "legacy_id": 45,
+   "name": "Equivalence",
+   "kind": "model",
+   "mode": "lens",
+   "evidence_class": "formal",
+   "origin": {
+    "author": "Mathematics",
+    "work": "Equivalence relations",
+    "type": "academic",
+    "note": "Selection follows Farnam Street's Great Mental Models"
+   },
+   "source_verified": false,
+   "summary": "Different inputs or routes can lead to the same result. If one path is blocked, look for an equivalent one that reaches the same end.",
+   "key_question": "What different inputs would produce an equivalent outcome?",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "blocked path",
+    "resource constraints",
+    "negotiation deadlock"
+   ],
+   "produces": "substitute paths with equivalence conditions",
+   "failure_mode": "Assuming substitutability where the difference is exactly what matters.",
+   "pairs_with": [
+    "mm.trade-offs",
+    "mm.first-principles-thinking",
+    "mm.asymmetric-warfare"
+   ],
+   "tension_with": [
+    "mm.irreducibility"
+   ],
+   "status": "seed"
+  },
+  {
+   "slug": "mm.trade-offs",
+   "legacy_id": 51,
+   "name": "Trade-offs",
+   "kind": "model",
+   "mode": "constraint",
+   "evidence_class": "formal",
+   "origin": {
+    "author": "Friedrich von Wieser",
+    "work": "Theorie der gesellschaftlichen Wirtschaft (opportunity cost)",
+    "type": "academic",
+    "note": "Selection follows Farnam Street's Great Mental Models",
+    "year": 1914
+   },
+   "source_verified": false,
+   "summary": "Choosing one option gives up the others. The true cost of a choice is the best alternative forgone, so name what you are giving up.",
+   "key_question": "What am I giving up, and is it worth less than what I am getting?",
+   "stages": [
+    "decide"
+   ],
+   "use_when": [
+    "any allocation of time or capital",
+    "yes/no decisions",
+    "prioritisation"
+   ],
+   "produces": "explicit cost ledger of the foregone option",
+   "failure_mode": "False dilemma: treating compatible options as mutually exclusive.",
+   "pairs_with": [
+    "mm.law-of-diminishing-returns",
+    "mm.equivalence",
+    "mm.leverage"
+   ],
+   "tension_with": [
+    "create.triz-contradiction"
+   ],
+   "status": "seed"
+  },
+  {
+   "slug": "mm.audience",
+   "legacy_id": 60,
+   "name": "Audience",
+   "kind": "model",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Aristotle",
+    "work": "Rhetoric",
+    "type": "tradition",
+    "note": "Selection follows Farnam Street's Great Mental Models"
+   },
+   "source_verified": false,
+   "summary": "Every message is received by a particular audience with its own knowledge and expectations. Shape the message for them, and judge it by how they receive it.",
+   "key_question": "Who is this actually for, and what do they already believe?",
+   "stages": [
+    "frame"
+   ],
+   "use_when": [
+    "communication and messaging",
+    "product design",
+    "presentations to executives"
+   ],
+   "produces": "audience model: priors, constraints, decision criteria",
+   "failure_mode": "Pandering: letting the audience dictate substance rather than form.",
+   "pairs_with": [
+    "mm.framing",
+    "mm.genre",
+    "mm.representation"
+   ],
+   "tension_with": [],
+   "status": "seed"
+  },
+  {
+   "slug": "mm.contrast",
+   "legacy_id": 62,
+   "name": "Contrast",
+   "kind": "model",
+   "mode": "lens",
+   "evidence_class": "empirical",
+   "evidence_note": "Perceptual contrast effects replicate robustly in vision research and judgment tasks. Extension to persuasion and design rests on practice, with weaker controlled evidence.",
+   "origin": {
+    "author": "Josef Albers",
+    "work": "Interaction of Color",
+    "type": "practitioner",
+    "note": "Selection follows Farnam Street's Great Mental Models",
+    "year": 1963
+   },
+   "source_verified": false,
+   "summary": "We judge things relative to what is next to them. Placing a contrast alongside changes how something is perceived, which can sharpen or distort a comparison.",
+   "key_question": "What difference makes this register at all?",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "attention problems",
+    "design and layout",
+    "argument structure"
+   ],
+   "produces": "contrast devices and where to place them",
+   "failure_mode": "Contrast for shock, with nothing behind it.",
+   "pairs_with": [
+    "mm.rhythm",
+    "mm.audience",
+    "mm.melody"
+   ],
+   "tension_with": [],
+   "status": "seed"
+  },
+  {
+   "slug": "mm.framing",
+   "legacy_id": 63,
+   "name": "Framing",
+   "kind": "model",
+   "mode": "audit",
+   "evidence_class": "empirical",
+   "evidence_note": "Framing effects (Tversky and Kahneman 1981) replicate broadly, with size varying by task and population.",
+   "origin": {
+    "author": "Amos Tversky; Daniel Kahneman",
+    "work": "The Framing of Decisions and the Psychology of Choice",
+    "type": "academic",
+    "note": "Selection follows Farnam Street's Great Mental Models",
+    "year": 1981
+   },
+   "source_verified": false,
+   "summary": "How a choice is presented changes how people respond to it, even when the facts are the same. Check whether you would decide differently under another framing.",
+   "key_question": "How does the presentation change the response, and who chose that frame?",
+   "stages": [
+    "frame"
+   ],
+   "use_when": [
+    "negotiation",
+    "survey or poll results",
+    "any claim arriving pre-interpreted"
+   ],
+   "produces": "the operative frame plus two alternative framings",
+   "failure_mode": "Reframing used as a substitute for changing substance, which is manipulation.",
+   "pairs_with": [
+    "mm.relativity",
+    "mm.representation",
+    "mm.audience"
+   ],
+   "tension_with": [],
+   "status": "seed"
+  },
+  {
+   "slug": "mm.melody",
+   "legacy_id": 65,
+   "name": "Melody",
+   "kind": "model",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Music theory",
+    "work": "Melody and harmony",
+    "type": "tradition",
+    "note": "Selection follows Farnam Street's Great Mental Models"
+   },
+   "source_verified": false,
+   "summary": "A melody is a sequence of notes heard as one shape. In communication, a memorable sequence carries feeling and is easier to recall than a list of points.",
+   "key_question": "What is the memorable line someone will repeat when I am not in the room?",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "messaging and positioning",
+    "teaching",
+    "strategy communication"
+   ],
+   "produces": "core motif in one sentence",
+   "failure_mode": "Catchiness prioritised over accuracy; the line survives, the truth does not.",
+   "pairs_with": [
+    "mm.narrative-instinct",
+    "mm.contrast",
+    "mm.audience"
+   ],
+   "tension_with": [],
+   "status": "seed"
+  },
+  {
+   "slug": "mm.plot",
+   "legacy_id": 67,
+   "name": "Plot",
+   "kind": "model",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Aristotle",
+    "work": "Poetics",
+    "type": "tradition",
+    "note": "Selection follows Farnam Street's Great Mental Models"
+   },
+   "source_verified": false,
+   "summary": "A plot is a chain of events linked by cause, usually driven by conflict toward a resolution. Stories organise facts into this shape whether or not reality has it.",
+   "key_question": "What does the protagonist want, what blocks it, and what follows causally?",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "strategy narrative",
+    "pitch or business case",
+    "making sense of your own situation"
+   ],
+   "produces": "causal chain with the central conflict named",
+   "failure_mode": "Imposing narrative causality on events that were substantially random.",
+   "pairs_with": [
+    "mm.character",
+    "mm.melody",
+    "mm.narrative-instinct"
+   ],
+   "tension_with": [
+    "mm.randomness",
+    "mm.narrative-instinct"
+   ],
+   "status": "seed"
+  },
+  {
+   "slug": "mm.asymmetric-warfare",
+   "legacy_id": 72,
+   "name": "Asymmetric Warfare",
+   "kind": "model",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "Andrew Mack",
+    "work": "Why Big Nations Lose Small Wars",
+    "type": "academic",
+    "note": "Selection follows Farnam Street's Great Mental Models",
+    "year": 1975
+   },
+   "source_verified": false,
+   "summary": "A weaker party can beat a stronger one by refusing to fight on the stronger party's terms. Look for the dimension where your opponent's strength does not apply.",
+   "key_question": "Where can I refuse the opponent's rules and compete on an axis they cannot follow?",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "outmatched on resources",
+    "entrenched incumbent",
+    "losing a direct comparison"
+   ],
+   "produces": "asymmetric tactic options with the axis named",
+   "failure_mode": "Mistaking mere non-compliance for a strategy.",
+   "pairs_with": [
+    "mm.niches",
+    "mm.leverage",
+    "mm.equivalence"
+   ],
+   "tension_with": [],
+   "status": "seed"
+  },
+  {
+   "slug": "mm.curiosity-instinct",
+   "legacy_id": 88,
+   "name": "Curiosity Instinct",
+   "kind": "model",
+   "mode": "lens",
+   "evidence_class": "heuristic",
+   "origin": {
+    "author": "George Loewenstein",
+    "work": "The Psychology of Curiosity",
+    "type": "academic",
+    "note": "Selection follows Farnam Street's Great Mental Models",
+    "year": 1994
+   },
+   "source_verified": false,
+   "summary": "People are driven to explore and understand, beyond immediate need. Curiosity opens new options and can pull attention away from the task.",
+   "key_question": "What would I ask if there were no cost to being wrong?",
+   "stages": [
+    "generate"
+   ],
+   "use_when": [
+    "stuck problem",
+    "routine without exploration",
+    "research direction"
+   ],
+   "produces": "exploration list of unasked questions",
+   "failure_mode": "Curiosity as sanctioned procrastination.",
+   "pairs_with": [
+    "mm.thought-experiment",
+    "mm.surface-area",
+    "mm.first-principles-thinking"
+   ],
+   "tension_with": [
+    "mm.circle-of-competence",
+    "mm.inversion"
+   ],
+   "status": "seed"
+  }
+ ]
+}

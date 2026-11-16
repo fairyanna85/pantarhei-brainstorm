@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="840" viewBox="0 0 600 840" role="img" aria-label="Card: Diverge, then converge. No judging for the next ten ideas. Write the bad ones too.">
+<rect x="6" y="6" width="588" height="828" rx="28" fill="#F6F4EF" stroke="#14161A" stroke-width="4"/>
+<path d="M6 34 a28 28 0 0 1 28 -28 H566 a28 28 0 0 1 28 28 V120 H6 Z" fill="#C2306A"/>
+<text x="44" y="76" font-family="'JetBrains Mono','DejaVu Sans Mono',Menlo,Consolas,monospace" font-size="20" font-weight="700" fill="#FFFFFF" letter-spacing="2">CARD</text>
+<text x="556" y="76" text-anchor="end" font-family="'JetBrains Mono','DejaVu Sans Mono',Menlo,Consolas,monospace" font-size="20" fill="#FFFFFF">principle</text>
+<text x="44" y="215" font-family="'Space Grotesk','Inter','Helvetica Neue',Helvetica,Arial,sans-serif" font-weight="600" font-size="48" fill="#14161A">Diverge, then</text>
+<text x="44" y="271" font-family="'Space Grotesk','Inter','Helvetica Neue',Helvetica,Arial,sans-serif" font-weight="600" font-size="48" fill="#14161A">converge</text>
+<text x="44" y="355" font-family="'Inter','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" fill="#14161A">No judging for the next ten</text>
+<text x="44" y="397" font-family="'Inter','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" fill="#14161A">ideas. Write the bad ones too.</text>
+<line x1="44" y1="652" x2="556" y2="652" stroke="#5B6270" stroke-width="2"/>
+<text x="44" y="690" font-family="'Inter','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" fill="#5B6270">J. P. Guilford; Alex Osborn, 1967; 1953 ·</text>
+<text x="44" y="718" font-family="'Inter','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" fill="#5B6270">The Nature of Human Intelligence; Applied</text>
+<rect x="44" y="750" width="190" height="46" rx="23" fill="none" stroke="#5B6270" stroke-width="3" stroke-dasharray="9 6"/>
+<text x="139" y="781" text-anchor="middle" font-family="'JetBrains Mono','DejaVu Sans Mono',Menlo,Consolas,monospace" font-size="20" font-weight="700" fill="#5B6270">heuristic</text>
+</svg>

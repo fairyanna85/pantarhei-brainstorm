@@ -1,0 +1,209 @@
+{
+  "cases": [
+    {
+      "text": "Brainstorm names for my bakery",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "Give me 20 creative ways to onboard new engineers",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "I need fresh ideas for a birthday party for a 40 year old",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "Think outside the box: how could a library make money",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "What are my options for getting out of this lease?",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "New angle on our quarterly offsite please, it's always the same",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "Let's do an ideation session on features for a smart home dashboard",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "What's the capital of Australia?",
+      "expect": "none"
+    },
+    {
+      "text": "Fix this bug in my Python function",
+      "expect": "none"
+    },
+    {
+      "text": "Convert this PDF to Word",
+      "expect": "none"
+    },
+    {
+      "text": "Schedule a meeting with Mark on Friday",
+      "expect": "none"
+    },
+    {
+      "text": "Summarize this article",
+      "expect": "none"
+    },
+    {
+      "text": "Write a SQL query that groups sales by region",
+      "expect": "none"
+    },
+    {
+      "text": "Translate this paragraph into French",
+      "expect": "none"
+    },
+    {
+      "text": "Give me 15 ideas for a team offsite that isn't bowling",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "Names for a podcast about urban gardening",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "I need creative ways to thank volunteers on a small budget",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "Brainstorm features for a habit tracking app",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "What else could we do with this empty storefront?",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "Come up with taglines for a coffee roastery",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "Help me ideate a theme for our school fundraiser",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "Wild ideas for how a museum could attract teenagers",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "Give me a bunch of ways to make our weekly meeting less boring",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "Think creatively: how could I make my commute useful?",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "I need gift ideas for a coworker who has everything",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "Generate some business ideas for someone with a woodworking hobby",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "What are some creative ways to reuse old shipping pallets?",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "Help me come up with a catchy name for our new internal tool",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "Let's brainstorm how to get more people to our open source project",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "Surprise me with unusual date ideas in a small town",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "I want lots of different approaches to teaching fractions to kids",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "Ideas for a product that helps people sleep better",
+      "expect": "pantarhei-brainstorm"
+    },
+    {
+      "text": "What's 17% of 2,340?",
+      "expect": "none"
+    },
+    {
+      "text": "Write a Python script that renames files by date",
+      "expect": "none"
+    },
+    {
+      "text": "What time is it in Tokyo?",
+      "expect": "none"
+    },
+    {
+      "text": "Merge these two PDFs into one",
+      "expect": "none"
+    },
+    {
+      "text": "Draft a Word document with a project status template",
+      "expect": "none"
+    },
+    {
+      "text": "What does the word 'ephemeral' mean?",
+      "expect": "none"
+    },
+    {
+      "text": "Move my 3pm meeting to Thursday",
+      "expect": "none"
+    },
+    {
+      "text": "Review this pull request for security issues",
+      "expect": "none"
+    },
+    {
+      "text": "Who won the World Cup in 2014?",
+      "expect": "none"
+    },
+    {
+      "text": "Explain what a mutex is",
+      "expect": "none"
+    },
+    {
+      "text": "Rewrite this email to sound more polite",
+      "expect": "none"
+    },
+    {
+      "text": "Give me a recipe for banana bread",
+      "expect": "none"
+    },
+    {
+      "text": "Convert 5 miles to kilometres",
+      "expect": "none"
+    },
+    {
+      "text": "Why is my React component re-rendering twice?",
+      "expect": "none"
+    },
+    {
+      "text": "Proofread this paragraph for typos",
+      "expect": "none"
+    },
+    {
+      "text": "Create a spreadsheet of my monthly expenses",
+      "expect": "none"
+    },
+    {
+      "text": "Find free time on my calendar next week",
+      "expect": "none"
+    },
+    {
+      "text": "Summarize the plot of Hamlet",
+      "expect": "none"
+    },
+    {
+      "text": "What should I do about my noisy neighbour?",
+      "expect": "pantarhei-brainstorm",
+      "contested": true
+    }
+  ]
+}
