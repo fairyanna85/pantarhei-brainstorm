@@ -17,8 +17,6 @@ Ask an AI for ideas and you get ten sensible ones, judged before they were finis
 produces a burst of unjudged ideas under each, and only scores them once the wall is full. You get
 forty ideas you would not have had, clustered into themes, and a shortlist of three.
 
-<p align="center"><img src="assets/demo.gif" alt="A Create session in the terminal: three cards drawn, 38 ideas generated, clustered into five themes, top three scored" width="85%"></p>
-
 ## Try it
 
 Say any of these after installing:
