@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="190" viewBox="0 0 590 190">
+<rect width="590" height="190" rx="8" fill="#14161A"/>
+<g font-family="'JetBrains Mono','DejaVu Sans Mono',Menlo,Consolas,monospace" font-size="13" fill="#F6F4EF">
+<text x="18" y="27" xml:space="preserve">┌─ CARD · SUBTRACTION ────────────────────────────┐</text>
+<text x="18" y="45" xml:space="preserve">│ Solve it only by removing things.               │</text>
+<text x="18" y="63" xml:space="preserve">│ Adams, Converse, Hales &amp; Klotz · Nature 2021    │</text>
+<text x="18" y="81" xml:space="preserve">│ [empirical]                                     │</text>
+<text x="18" y="99" xml:space="preserve">└─────────────────────────────────────────────────┘</text>
+<text x="18" y="117" xml:space="preserve"> 14  Drop the welcome deck entirely; pair on a real ticket from day one</text>
+<text x="18" y="135" xml:space="preserve"> 15  Remove the laptop setup step: ship machines pre-imaged</text>
+<text x="18" y="153" xml:space="preserve"> 16  No onboarding meetings at all for week one, only async video</text>
+<text x="18" y="171" xml:space="preserve"> …</text>
+</g>
+</svg>
